@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- TROCAR O LINK DO CHECKOUT: buscar por data-checkout (4 botões) -->
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -13,7 +12,6 @@
   <meta name="theme-color" content="#482122">
 
   <script>
-    /* Animação de entrada é aprimoramento progressivo: sem JS (ou com movimento reduzido) tudo aparece. */
     (function () {
       var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (!reduce) document.documentElement.classList.add('js-reveal');
@@ -33,15 +31,14 @@
 
 <main>
 
-  <!-- 1. HERO -->
   <section class="hero" aria-labelledby="hero-title">
     <div class="wrap hero__grid">
       <div class="hero__text">
         <p class="eyebrow">Paula Ferreira Confeitaria</p>
         <h1 id="hero-title">O bolo de pote que cabe na sua cozinha, na sua <em>rotina</em> e no seu delivery.</h1>
         <p class="lead">5 receitas, 2 massas, recheios de baixo custo e o método de produção solo que a Paula usa para vender em casa, sozinha, sem ser engolida pelo trabalho.</p>
-        <a class="btn" href="https://pay.hotmart.com/CHECKOUT-EM-CONSTRUCAO" data-checkout target="_blank" rel="noopener">QUERO O E-BOOK POR R$ 54,90</a>
-        <p class="micro">Acesso imediato · Pagamento seguro</p><!-- [CONFIRMAR] -->
+        <a class="btn" href="https://go.hotmart.com/K107914550I" data-checkout target="_blank" rel="noopener">QUERO O E-BOOK POR R$ 54,90</a>
+        <p class="micro">Acesso imediato · Pagamento seguro</p>
       </div>
       <figure class="hero__media">
         <img class="photo photo--portrait" src="assets/img1.jpg" width="960" height="1280" fetchpriority="high" alt="Bolo de pote com massa de chocolate e mousse rosa de morango">
@@ -49,7 +46,6 @@
     </div>
   </section>
 
-  <!-- 2. RECONHECIMENTO DA DOR -->
   <section class="section pain" aria-labelledby="pain-title">
     <div class="wrap wrap--narrow">
       <h2 id="pain-title" class="sr-only">Você já se sentiu assim?</h2>
@@ -62,7 +58,6 @@
     </div>
   </section>
 
-  <!-- 3. A VIRADA -->
   <section class="section turn" aria-labelledby="turn-title">
     <div class="wrap wrap--narrow">
       <h2 id="turn-title" class="turn__title reveal">Foi aí que eu percebi que não preciso ter uma produção gigantesca e um cardápio imenso.</h2>
@@ -72,7 +67,6 @@
     </div>
   </section>
 
-  <!-- 4. A SOLUÇÃO -->
   <section class="section solution" aria-labelledby="solution-title">
     <div class="wrap">
       <h2 id="solution-title" class="reveal">E o meu bolo de pote é fundamental nessa estrutura.</h2>
@@ -86,7 +80,6 @@
     </div>
   </section>
 
-  <!-- 5. O QUE VOCÊ RECEBE -->
   <section class="section receive" aria-labelledby="receive-title">
     <div class="wrap">
       <img class="deco" src="assets/ilustracao-utensilios.png" width="700" height="647" alt="" loading="lazy">
@@ -151,8 +144,7 @@
     </div>
   </section>
 
-  <!-- 6. BÔNUS -->
-  <section class="section bonus" aria-labelledby="bonus-title"><!-- [CONFIRMAR] conteúdo do bônus -->
+  <section class="section bonus" aria-labelledby="bonus-title">
     <div class="wrap wrap--narrow">
       <h2 id="bonus-title" class="reveal">Muito mais que uma receita</h2>
       <p class="section__lead reveal">Quem adquire um material meu sempre tem acesso a muito mais que uma receita. O e-book de bolos não será diferente.</p>
@@ -163,7 +155,6 @@
     </div>
   </section>
 
-  <!-- 7. PARA QUEM É -->
   <section class="section audience" aria-labelledby="audience-title">
     <div class="wrap wrap--narrow">
       <h2 id="audience-title" class="reveal">Para quem é</h2>
@@ -174,13 +165,12 @@
         <li>Quem prefere começar enxuta.</li>
       </ul>
       <p class="cta-row reveal">
-        <a class="btn" href="https://pay.hotmart.com/CHECKOUT-EM-CONSTRUCAO" data-checkout target="_blank" rel="noopener">QUERO O E-BOOK POR R$ 54,90</a>
+        <a class="btn" href="https://go.hotmart.com/K107914550I" data-checkout target="_blank" rel="noopener">QUERO O E-BOOK POR R$ 54,90</a>
       </p>
-      <p class="micro micro--center">Acesso imediato · Pagamento seguro</p><!-- [CONFIRMAR] -->
+      <p class="micro micro--center">Acesso imediato · Pagamento seguro</p>
     </div>
   </section>
 
-  <!-- 8. SOBRE A PAULA -->
   <section class="section about" aria-labelledby="about-title">
     <div class="wrap about__grid">
       <figure class="about__photo">
@@ -191,13 +181,12 @@
         <p class="eyebrow reveal">Confeiteira · Desde 2020</p>
         <p class="reveal">Trabalho em casa, sou mãe, esposa e produzo sozinha, em uma estrutura pequena. Por vezes me comparei com quem tem equipe e cozinha profissional, alguém fora da minha realidade.</p>
         <p class="reveal">Ninguém me ensinou. Trilhei esse caminho sozinha. Desisti uma vez, mas retornei, e hoje posso dizer que é possível.</p>
-        <p class="reveal">Em casa, com filho de 3 anos, pouco espaço e <strong>MUITA</strong> vontade de fazer dar certo. E tem dado, viu? ❤️</p><!-- [CONFIRMAR] idade do filho -->
+        <p class="reveal">Em casa, com filho de 3 anos, pouco espaço e <strong>MUITA</strong> vontade de fazer dar certo. E tem dado, viu? ❤️</p>
         <blockquote class="reveal">Um erro que não cometo mais: aprendi a olhar para o <span class="accent">MEU NEGÓCIO</span> e para a MINHA REALIDADE. O que posso fazer com o que tenho HOJE?</blockquote>
       </div>
     </div>
   </section>
 
-  <!-- 9. GARANTIA [CONFIRMAR]: oculta até a Paula confirmar prazo e condição. Remova o atributo hidden para publicar. -->
   <section class="section guarantee" aria-labelledby="guarantee-title">
     <div class="wrap wrap--narrow">
       <div class="guarantee__card">
@@ -207,7 +196,6 @@
     </div>
   </section>
 
-  <!-- 10. FAQ -->
   <section class="section faq" aria-labelledby="faq-title">
     <div class="wrap wrap--narrow">
       <h2 id="faq-title" class="reveal">Perguntas frequentes</h2>
@@ -226,27 +214,21 @@
         </details>
         <details>
           <summary>Como recebo o e-book?</summary>
-          <p>Depois da compra, você recebe o acesso ao e-book pelo e-mail do cadastro.</p><!-- [CONFIRMAR] formato e forma de entrega -->
+          <p>Depois da compra, você recebe o acesso ao e-book pelo e-mail do cadastro.</p>
         </details>
-        <!-- Pergunta extra: a Paula completa aqui.
-        <details>
-          <summary>PERGUNTA</summary>
-          <p>RESPOSTA</p>
-        </details>
-        -->
+
       </div>
     </div>
   </section>
 
-  <!-- 11. CTA FINAL -->
   <section class="section final" aria-labelledby="final-title">
     <div class="wrap wrap--narrow final__box">
       <h2 id="final-title" class="reveal">Se você acredita que minha experiência e conhecimento podem te fazer crescer, separe R$ 54,90.</h2>
       <p class="reveal">Será um imenso prazer te ter como aluna!</p>
       <p class="cta-row reveal">
-        <a class="btn" href="https://pay.hotmart.com/CHECKOUT-EM-CONSTRUCAO" data-checkout target="_blank" rel="noopener">QUERO O E-BOOK POR R$ 54,90</a>
+        <a class="btn" href="https://go.hotmart.com/K107914550I" data-checkout target="_blank" rel="noopener">QUERO O E-BOOK POR R$ 54,90</a>
       </p>
-      <p class="micro micro--center">Acesso imediato · Pagamento seguro</p><!-- [CONFIRMAR] -->
+      <p class="micro micro--center">Acesso imediato · Pagamento seguro</p>
     </div>
   </section>
 
@@ -260,11 +242,10 @@
   </div>
 </footer>
 
-<!-- BARRA FIXA -->
 <div class="sticky" role="region" aria-label="Comprar o e-book">
   <div class="sticky__inner">
     <p class="sticky__text"><span>Bolos de pote</span> <strong>R$ 54,90</strong></p>
-    <a class="btn btn--sm" href="https://pay.hotmart.com/CHECKOUT-EM-CONSTRUCAO" data-checkout target="_blank" rel="noopener">QUERO O E-BOOK</a>
+    <a class="btn btn--sm" href="https://go.hotmart.com/K107914550I" data-checkout target="_blank" rel="noopener">QUERO O E-BOOK</a>
   </div>
 </div>
 
